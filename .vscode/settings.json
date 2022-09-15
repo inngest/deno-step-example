@@ -1,0 +1,3 @@
+{
+  "deno.enablePaths": ["steps/step-1"]
+}

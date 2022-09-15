@@ -1,0 +1,21 @@
+{
+  "name": "deno-step-example",
+  "id": "national-wallaby-73c3cd",
+  "triggers": [
+    {
+      "event": "demo/event.sent",
+      "definition": {
+        "format": "cue",
+        "synced": true,
+        "def": "file://./events/demo-event-sent.cue"
+      }
+    }
+  ],
+  "steps": {
+    "step-1": {
+      "id": "step-1",
+      "path": "file://./steps/step-1",
+      "name": "deno-step-example"
+    }
+  }
+}
